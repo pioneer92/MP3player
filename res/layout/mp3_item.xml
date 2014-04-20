@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/mp3_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="80dp"
+            android:textColor="#FFF099"
+            android:textSize="8pt" />
+        
+        <TextView
+            android:id="@+id/mp3_duration"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFF099"
+            android:textSize="8pt" />
+        
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/relativeLayout1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/mp3_artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:textColor="#F0F0F0" />
+        
+        <TextView
+            android:id="@+id/mp3_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+    
+</RelativeLayout>

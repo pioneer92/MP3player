@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="sortOrder">
+		<item>按标题(从小到大)</item>
+		<item>按标题(从大到小)</item>
+		<item>按歌手(从小到大)</item>
+		<item>按歌手(从大到小)</item>
+		<item>按专辑(从小到大)</item>
+		<item>按专辑(从大到小)</item>
+		<item>按时间(从小到大)</item>
+		<item>按时间(从大到小)</item>
+	</string-array>
+</resources>

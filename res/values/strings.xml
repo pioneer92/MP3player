@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">悦我音乐</string>
+    <string name="action_settings">个性设置</string>
+    <string name="play">播放</string>
+    <string name="suspend">暂停</string>
+    <string name="stop">停止</string>
+    <string name="next">下一首</string>
+    <string name="update_music_list">更新列表</string>
+    <string name="single_play">单曲播放</string>
+    <string name="single_repeat">单曲循环</string>
+    <string name="list_play">列表播放</string>
+    <string name="list_repeat">列表循环</string>
+    <string name="random">随机播放</string>
+    <string name="duandianbofang">启动断点播放</string>
+    <string name="long_click_option">长按操作</string>
+    <string name="sort_order">排序方法</string>
+    <string name="zero">00:00</string>
+    <string name="musuc_details">歌曲信息</string>
+</resources>

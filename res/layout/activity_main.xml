@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg3"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.25"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@id/android:list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.76"
+                android:dividerHeight="2dp"
+                android:cacheColorHint="#00000000"
+                android:smoothScrollbar="true" >
+            </ListView>
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+			    android:layout_marginLeft="20dp"
+			    android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout3"
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="55dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/playButton"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:clickable="true"
+                    android:background="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10pt"
+                    android:text="@string/zero"
+                    android:textColor="#FFFFCC"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <Button
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/NextButton"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:clickable="true"
+                    android:background="@drawable/next" />
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

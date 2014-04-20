@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wxy.MP3player"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.wxy.MP3player.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wxy.MP3player.ItemLongClick"
+            android:label="@string/long_click_option"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.wxy.MP3player.Setting"
+            android:label="@string/action_settings" >
+        </activity>
+        <activity
+            android:name="com.wxy.MP3player.MusicDetails"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="@string/musuc_details" >
+        </activity>
+        <service 
+            android:name="com.wxy.MP3player.PlayMusic">            
+        </service>
+    </application>
+
+</manifest>

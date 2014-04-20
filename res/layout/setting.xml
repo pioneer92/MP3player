@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context="com.wxy.MP3player.Setting" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/duandianbofang"
+            android:textSize="10pt"
+            android:checked="true"
+            android:textColor="#FFF099" />
+        
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="1dp"
+        android:background="#FFFFFF" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sort_order"
+        android:textSize="10pt"
+        android:textColor="#FFF099" />
+    
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
